@@ -1,12 +1,12 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-08",
   "version": "1.1.0",
-  "description": "",
   "main": "index.js",
   "homepage": "https://cr1m3s.github.io/goit-js-hw-08",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "@vimeo/player": "^2.16.1",
+    "push-dir": "^0.4.1",
     "simplelightbox": "^2.9.0"
-  }
+  },
+  "description": ""
 }
